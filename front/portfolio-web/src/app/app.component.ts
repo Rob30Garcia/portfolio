@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as text from '../assets/text/en.json';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  name = "Name"
+  public text = text;
 }
