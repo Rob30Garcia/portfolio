@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio-web';
-  name = "Robert Garcia"
+  name = "Robert Garcia";
+  occupation = 'Fronten, Backend and Mobile Developer'
 }
